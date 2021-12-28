@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "copy": "cp -r .config/ ~/.config/; cp -r .local/ ~/.local/",
-        "rsync": "rsync -av .config/ ~/.config ; rsync -av .local/ ~/.local"
+        "copy": "cp -r .config/ ~/.config/; cp -r .local/ ~/.local/; cp -r Documents/ ~/Documents/",
+        "rsync": "rsync -av .config/ ~/.config ; rsync -av .local/ ~/.local ; rsync -av Documents/ ~/Documents"
     }
 }
