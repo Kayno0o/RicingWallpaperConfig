@@ -26,6 +26,11 @@ My .config for ricing Arch using i3-gaps and my scripts from my other repo, http
 
 * [ibhagwan/picom](https://github.com/ibhagwan/picom)
 
+* [python3](https://wiki.archlinux.org/title/python)
+    ```
+    sudo pacman -S python3
+    ```
+
 * Wallpapers : [1st](https://wall.alphacoders.com/big.php?i=1191962) - [2nd](https://wall.alphacoders.com/big.php?i=824233) - [3rd](https://wall.alphacoders.com/big.php?i=1180547) - [4th](https://wall.alphacoders.com/big.php?i=265693)
 
 * I am using [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal
