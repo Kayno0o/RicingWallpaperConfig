@@ -6,6 +6,7 @@ My .config for ricing Arch using i3-gaps and my scripts from my other repo, http
 - [Table of contents](#table-of-contents)
 - [Example screenshot](#example-screenshot)
 - [Installation (arch only)](#installation-arch-only)
+  - [Bonus](#bonus)
 
 # Example screenshot
 
@@ -43,3 +44,6 @@ Add this to your .bashrc or .zshrc to restore the color scheme on terminal:
     ```
     wal -r
     ```
+## Bonus
+
+If you have yarn (or npm), you can run `npm run rsync` (or `npm run copy`) to copy the .config and .local files to your home directory.
