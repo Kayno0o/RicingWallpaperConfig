@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "copy": "cp -r .config/ ~/.config/; cp -r .local/ ~/.local/",
+        "rsync": "rsync -av .config/ ~/.config ; rsync -av .local/ ~/.local"
+    }
+}

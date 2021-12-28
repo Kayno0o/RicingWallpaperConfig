@@ -1,0 +1,51 @@
+separator_block_width=10
+
+[CONNECTION]
+markup=pango
+command=python ~/.config/i3blocks/blocks/wifi.py
+interval=20
+
+[SOUND]
+markup=pango
+command=~/.config/i3blocks/blocks/sound.sh
+interval=3
+
+[BATTERY]
+markup=pango
+command=~/.config/i3blocks/blocks/battery.sh
+interval=5
+
+[CPU]
+markup=pango
+command=~/.config/i3blocks/blocks/cpu.sh
+interval=2
+
+[MEM]
+markup=pango
+command=~/.config/i3blocks/blocks/ram.sh
+interval=5
+
+[DISK_M2]
+markup=pango
+command=~/.config/i3blocks/blocks/disks.sh /
+interval=30
+
+[SSD]
+markup=pango
+command=~/.config/i3blocks/blocks/disks.sh /dev/sda4
+interval=30
+
+[BRIGHTNESS]
+markup=pango
+command=python ~/.config/i3blocks/blocks/brightness.py
+interval=1
+
+[WEATHER]
+markup=pango
+command=python3.10 ~/.config/i3blocks/blocks/weather.py
+interval=600
+
+[TIME_DATE]
+markup=pango
+command=~/.config/i3blocks/blocks/time_date.sh
+interval=1
