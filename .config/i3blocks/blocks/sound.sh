@@ -17,10 +17,10 @@ if [ "$MUTED" = "1" ]
 then
     ICON="$VOLUME_MUTE"
 else
-    if [ "$SOUND_LEVEL" -lt 34 ]
+    if [ "$SOUND_LEVEL" -lt 30 ]
     then
         ICON="$VOLUME_LOW"
-    elif [ "$SOUND_LEVEL" -lt 67 ]
+    elif [ "$SOUND_LEVEL" -lt 60 ]
     then
         ICON="$VOLUME_MID"
     else
@@ -28,7 +28,7 @@ else
     fi
 fi
 
-if [ "$text" == "bluetooth" ]; then
+if [ "$bluetooth" == "bluetooth" ]; then
     echo " $ICON $SOUND_LEVEL "
     echo "$SOUND_LEVEL"
 else
@@ -43,7 +43,7 @@ then
 else
     if [ "$SOUND_LEVEL" -gt 100 ]; then
         echo $ERROR_COLOR
-    elif [ "$text" != "bluetooth" ]; then
+    elif [ "$bluetooth" != "bluetooth" ]; then
         echo $FOCUS
     fi
 fi
