@@ -31,6 +31,16 @@ My .config for ricing Arch using i3-gaps and my scripts from my other repo, http
     sudo pacman -S python3
     ```
 
+* For my lock screen, I use [i3lock](https://man.archlinux.org/man/community/i3lock/i3lock.1.en)
+    ```
+    sudo pacman -S i3lock
+    ```
+
+* For taking screenshots, I use [ImageMagick](https://wiki.archlinux.org/title/ImageMagick)
+    ```
+    sudo packman -S imagemagick
+    ```
+
 * Wallpapers : [1st](https://wall.alphacoders.com/big.php?i=1191962) - [2nd](https://wall.alphacoders.com/big.php?i=824233) - [3rd](https://wall.alphacoders.com/big.php?i=1180547) - [4th](https://wall.alphacoders.com/big.php?i=265693)
 
 * I am using [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal
@@ -49,6 +59,7 @@ Add this to your .bashrc or .zshrc to restore the color scheme on terminal:
     ```
     wal -r
     ```
+
 ## Bonus
 
 If you have yarn (or npm), you can run `npm run rsync` (or `npm run copy`) to copy the .config and .local files to your home directory.
